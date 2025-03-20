@@ -12,9 +12,10 @@ import {
 } from "../../pages/graphql/task";
 import { graphQLRequest } from "../../utils/request";
 import { ToastContainer } from "react-toastify";
+import { GRAPHQL_URI_WS } from "../../utils/contants";
 
 const client = createClient({
-  url: "ws://localhost:5000/graphql",
+  url: GRAPHQL_URI_WS,
 });
 
 const SideBar = () => {
