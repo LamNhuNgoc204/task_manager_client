@@ -1,0 +1,9 @@
+.bgc {
+  background: linear-gradient(
+    135deg,
+    rgba(167, 199, 231, 0.5) 0%,
+    rgba(214, 240, 255, 0.5) 50%,
+    rgba(240, 243, 245, 0.5) 100%
+  );
+  backdrop-filter: blur(10px);
+}

@@ -1,0 +1,24 @@
+.container {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-box {
+  color: #333;
+}
+
+.input-box input::placeholder {
+  color: #888;
+  font-weight: 400;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.btn {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
